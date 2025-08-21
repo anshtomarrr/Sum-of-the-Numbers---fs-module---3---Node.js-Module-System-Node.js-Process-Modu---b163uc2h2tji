@@ -8,4 +8,4 @@ x.map((e)=>{
   ans+= parseInt(a[1]);
 })
 console.log(ans);
-fs.writeFileSync('output.txt', ans.toString(), 'utf8');
+fs.writeFileSync('output.txt', ans.toString());
